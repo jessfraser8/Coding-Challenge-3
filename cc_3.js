@@ -10,5 +10,10 @@ class Car {
         return this.speed + 10
         console.log('The new speed is ' + speed + ' km/h.')
     }
+
+    brake(){
+        return this.speed - 5
+        console.log('The new speed is ' + speed + ' km/h.')
+    }
     
 }
