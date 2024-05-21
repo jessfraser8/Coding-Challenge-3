@@ -6,5 +6,9 @@ class Car {
         console.log('The car is a ' + make + ' driving ' + speed + ' km/h.');
     }
 
-
+    accelerate(){
+        return this.speed + 10
+        console.log('The new speed is ' + speed + ' km/h.')
+    }
+    
 }
