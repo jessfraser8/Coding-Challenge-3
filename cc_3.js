@@ -7,14 +7,14 @@ class Car {
         console.log(`The car is a ${make} driving ${speed} km/h.`);
     }
 
-//Add acceleration method.
+//Add acceleration method that increases the speed by 10 km/h.
     accelerate(){
         this.speed = this.speed + 10;
         console.log(`The new speed is ${this.speed} km/h.`);
-        return this.speed + 10;
+        return this.speed;
     }
 
-//Add brake method.
+//Add brake method that decreases the speed by 5 km/h.
     brake(){
         this.speed = this.speed - 5;
         console.log(`The new speed is ${this.speed} km/h.`);
